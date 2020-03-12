@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: -19
-    y: 80
+    x: 8
+    y: 51
     width: 1278
     height: 981
   m_ShowMode: 4
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 124
+  controlID: 102
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 125
+  controlID: 103
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 126
+  controlID: 104
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 292}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 105
+  controlID: 128
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -345,8 +345,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 890
-    y: 731
+    x: 917
+    y: 702
     width: 368
     height: 289
   m_ViewDataDictionary: {fileID: 0}
@@ -434,8 +434,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -19
-    y: 110
+    x: 8
+    y: 81
     width: 411
     height: 542
   m_ViewDataDictionary: {fileID: 0}
@@ -489,8 +489,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 393
-    y: 110
+    x: 420
+    y: 81
     width: 495
     height: 542
   m_ViewDataDictionary: {fileID: 0}
@@ -694,8 +694,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -19
-    y: 673
+    x: 8
+    y: 644
     width: 908
     height: 347
   m_ViewDataDictionary: {fileID: 0}
@@ -718,7 +718,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\User\MobileGameForScrubMomma
+  m_LastProjectPath: C:\Users\User\Documents\GitHub\MobileGameForScrubbMomma\MobileGameForScrubMomma
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -856,8 +856,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 890
-    y: 110
+    x: 917
+    y: 81
     width: 368
     height: 600
   m_ViewDataDictionary: {fileID: 0}
