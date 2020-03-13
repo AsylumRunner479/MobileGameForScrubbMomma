@@ -19,16 +19,16 @@ public class PauseMenu : MonoBehaviour
         {
             Time.timeScale = 1f;
             restart.SetActive(false);
-            player.IsDead = false;
+            TIlt.IsDead = false;
         }
-        else if (player.IsDead == true)
+        else if (TIlt.IsDead == true)
         {
             Time.timeScale = 0f;
             restart.SetActive(true);
         }
         else
         {
-            player.IsDead = false;
+            TIlt.IsDead = false;
         }
     }
 }

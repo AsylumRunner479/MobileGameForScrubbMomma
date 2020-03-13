@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TIlt : MonoBehaviour
 {
-    public bool IsDead = false;
+    public static bool IsDead = false;
     // Start is called before the first frame update
     void Start()
     {
