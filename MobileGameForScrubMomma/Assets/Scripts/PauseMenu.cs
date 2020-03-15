@@ -11,17 +11,18 @@ public class PauseMenu : MonoBehaviour
     {
         
     }
+    void OnTouchDown()
+    {
+        Time.timeScale = 1f;
+        restart.SetActive(false);
+        TIlt.IsDead = false;
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("r"))
-        {
-            Time.timeScale = 1f;
-            restart.SetActive(false);
-            TIlt.IsDead = false;
-        }
-        else if (TIlt.IsDead == true)
+        
+        if (TIlt.IsDead == true)
         {
             Time.timeScale = 0f;
             restart.SetActive(true);
