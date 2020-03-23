@@ -961,6 +961,7 @@ GameObject:
   - component: {fileID: 1762186044}
   - component: {fileID: 1762186043}
   - component: {fileID: 1762186042}
+  - component: {fileID: 1762186045}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -1026,6 +1027,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1762186045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762186041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f286f6a115a9cd74cb1396468f0d4bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hit: 0
+  miss: 0
 --- !u!1 &1852799681
 GameObject:
   m_ObjectHideFlags: 0
@@ -1071,6 +1086,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Timer: 10
   Enemy: {fileID: 3768440057558729061, guid: e5759a70bde83ee4eae7bf2bc3009105, type: 3}
+  CurEnemy: {fileID: 0}
+  rb: {fileID: 0}
 --- !u!1 &2077577592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,7 +1196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a2c7b87fada1a14ab7261fea9814fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsDead: 0
 --- !u!54 &2077577598
 Rigidbody:
   m_ObjectHideFlags: 0
